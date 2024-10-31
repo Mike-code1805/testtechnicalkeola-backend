@@ -4,10 +4,12 @@ import { logger } from '../../logger/appLoger';
 import { MESSAGE_ERROR_USER_NOT_FOUND, MESSAGE_SUCCESS } from '../../constants';
 import { io } from '../../index';
 import { tokenmessageModel } from '../../tokenmessage/entity/model/tokenmessageModel';
+import dotenv from 'dotenv';
 
 import admin from 'firebase-admin';
+dotenv.config();
 
-const serviceAccount = require('../../../serviceAccountKey.json');
+const serviceAccount = JSON.parse(`${process.env.SERVICE_ACCOUNT_KEY}` as string);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),

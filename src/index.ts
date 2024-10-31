@@ -11,7 +11,7 @@ const expressServer = app.listen(process.env.PORT, () => console.log(`Server Sta
 
 const io = new Server(expressServer, {
   cors: {
-    origin: 'exp://localhost:8081',
+    origin: `${process.env.FRONTEND_URL}`,
     methods: ['GET', 'POST', 'PUT'],
     credentials: true,
   },
