@@ -29,7 +29,7 @@ export const updateOneOrderService = async (orderId: string, order: CreateOrder)
     const message = {
       token: token_user.token,
       notification: {
-        title: 'Hola Usuario!',
+        title: 'Tienes una actualización en tu orden',
         body: 'Tu estado de la orden ha cambiado a ' + order.status + '.',
       },
     };
