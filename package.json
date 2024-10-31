@@ -6,7 +6,7 @@
     "test": "jest  --config ./jest.config.ts --detectOpenHandles",
     "start:dev": "ts-node-dev src/index.ts",
     "start": "node build/index.js",
-    "build": "tsc && cp ./src/report/Registro.xlsx ./build/report/Registro.xlsx && cp ./src/report/RegistroEntregaSilabo.xlsx ./build/report/RegistroEntregaSilabo.xlsx && cp ./src/report/RegistroPlanSesiones.xlsx ./build/report/RegistroPlanSesiones.xlsx"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
