@@ -1,0 +1,7 @@
+{"instance":"services","level":"error","message":"error getting the user with email: adminkeola@gmail.com","service":"getOneUserByEmailService","trace":"No existe el usuario."}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"No existe el usuario."}
+{"fn":"authLoginUserService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"No existe el usuario."}
+{"fn":"tokenmessageCreateService","instance":"services","level":"error","message":"Error validating secret code","service":"user-service","trace":"Tokenmessage validation failed: userId: Path `userId` is required."}
+{"instance":"services","level":"error","message":"error getting order with id 6722e64ac7a0f520ce51e89c","service":"updateOneOrderService","trace":"No existe el usuario."}
+{"instance":"services","level":"error","message":"error getting order with id 6722e64ac7a0f520ce51e89c","service":"updateOneOrderService","trace":"No existe el usuario."}
+{"instance":"services","level":"error","message":"error getting order with id 6722e64ac7a0f520ce51e89c","service":"updateOneOrderService","trace":"The default Firebase app already exists. This means you called initializeApp() more than once without providing an app name as the second argument. In most cases you only need to call initializeApp() once. But if you do want to initialize multiple apps, pass a second argument to initializeApp() to give each app a unique name."}

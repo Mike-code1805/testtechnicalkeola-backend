@@ -1,0 +1,2 @@
+export { getAllProductsController } from './getAllProductsController';
+
